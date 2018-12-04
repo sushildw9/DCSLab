@@ -22,6 +22,14 @@ libraries:
     name: tf-serving
     registry: kubeflow
     version: c7b3be5138d8c41ec86991da3fe05b6c11d6908b
+  sushildw9/nfs-server:
+    name: nfs-server
+    registry: sushildw9
+    version: 38bea816a73e4afeb8f2d3ba0178bcfd4ef258b7
+  sushildw9/nfs-volume:
+    name: nfs-volume
+    registry: sushildw9
+    version: 38bea816a73e4afeb8f2d3ba0178bcfd4ef258b7
 name: dcs
 registries:
   incubator:
@@ -30,4 +38,7 @@ registries:
   kubeflow:
     protocol: github
     uri: github.com/kubeflow/kubeflow/tree/v0.3.0-rc.3/kubeflow
+  sushildw9:
+    protocol: github
+    uri: github.com/sushildw9/DCSLab/tree/sushil-dev/tf-dcs/pkg
 version: 0.0.1

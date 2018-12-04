@@ -10,7 +10,7 @@ APP_NAME=dcs
 KUBEFLOW_GITHUB_VERSION=v0.3.0-rc.3
 
 ## GITHUB version for ciscoai components
-SU_GITHUB_VERSION=master
+SU_GITHUB_VERSION=sushil-dev
 
 ## Ksonnet environment name
 KF_ENV=nativek8s

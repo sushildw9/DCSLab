@@ -11,7 +11,7 @@
 // @optionalParam namespace string null Namespace to use for the components. It is automatically inherited from the environment if not set.
 
 local k = import "k.libsonnet";
-local util = import "ciscoai/tf-mnistjob/util.libsonnet";
+local util = import "sushildw9/tf-mnistjob/util.libsonnet";
 
 // updatedParams uses the environment namespace if
 // the namespace parameter is not explicitly set

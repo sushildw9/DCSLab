@@ -21,5 +21,9 @@
       tfJobUiServiceType: "ClusterIP",
       tfJobVersion: "v1alpha2",
     },
+    "nfs-server": {
+      name: "nfs-server",
+      namespace: "null",
+    },
   },
 }

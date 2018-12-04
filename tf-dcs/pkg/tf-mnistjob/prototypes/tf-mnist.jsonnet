@@ -19,7 +19,7 @@ local k = import "k.libsonnet";
 local deployment = k.extensions.v1beta1.deployment;
 local container = deployment.mixin.spec.template.spec.containersType;
 local podTemplate = k.extensions.v1beta1.podTemplate;
-local util = import "ciscoai/tf-mnistjob/util.libsonnet";
+local util = import "sushildw9/tf-mnistjob/util.libsonnet";
 
 // updatedParams uses the environment namespace if
 // the namespace parameter is not explicitly set
@@ -27,7 +27,7 @@ local updatedParams = params {
   namespace: if params.namespace == "null" then env.namespace else params.namespace,
 };
 
-local tfJob = import "ciscoai/tf-mnistjob/tf-job.libsonnet";
+local tfJob = import "sushildw9/tf-mnistjob/tf-job.libsonnet";
 
 local name = import "param://name";
 local namespace = updatedParams.namespace;
