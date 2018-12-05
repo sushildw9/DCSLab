@@ -70,7 +70,7 @@ local replicas = std.map(function(s)
                            s {
                              template+: {
                                spec+: {
-                                  volumes: [ { name: "nfsvolume", persistentVolumeClaim: { claimName: "nfs" } } ] ,
+                                  volumes: [ { name: "nfsvolume", persistentVolumeClaim: { claimName: "sunfs" } } ] ,
                                  
                                   containers: [
                                    s.template.spec.containers[0] {

@@ -1,5 +1,5 @@
 { 
-   "name": "tf-mnistjob",
+   "name": "tf-dcsjob",
    "apiVersion": "0.0.1",
    "kind": "ksonnet.io/parts",
    "description": "Prototype for Tensorflow MNIST job\n",
@@ -24,9 +24,9 @@
    ],
    "quickStart": {
       "prototype": "io.ksonnet.pkg.tf-mnistjob",
-      "componentName": "tf-mnistjob",
+      "componentName": "tf-dcsjob",
       "flags": {
-         "name": "tf-mnistjob",
+         "name": "tf-dcsjob",
          "namespace": "default"
       },
       "comment": "Tensorflow MNIST job"

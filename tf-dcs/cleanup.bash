@@ -21,4 +21,7 @@ ks delete ${KF_ENV} -c tf-job-operator
 kubectl get pods -n ${NAMESPACE}
 
 ks env rm ${KF_ENV}
-kubectl delete namespace ${NAMESPACE} 
+kubectl delete namespace ${NAMESPACE}
+
+cd ../
+rm -rf ${APP_NAME}

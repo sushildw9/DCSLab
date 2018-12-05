@@ -23,7 +23,8 @@ ks env set ${KF_ENV} --namespace ${NAMESPACE}
 ks registry add kubeflow github.com/kubeflow/kubeflow/tree/${KUBEFLOW_GITHUB_VERSION}/kubeflow
 
 ## Private registry that contains ${APP_NAME} example components
-ks registry add sushildw9 github.com/sushildw9/DCSLab/tree/${SU_GITHUB_VERSION}/tf-${APP_NAME}/pkg
+#ks registry add sushildw9 github.com/sushildw9/DCSLab/tree/${SU_GITHUB_VERSION}/tf-${APP_NAME}/pkg
+ks registry add sushildw9 /Users/susdwive/Documents/study/ML/dcslab/DCSLab/tf-dcs/pkg
 
 #5. Install necessary packages from registries
 
